@@ -9,5 +9,6 @@ public class FindSquareUsingLamda {
     public static void main(String[] args) {
         CalculateSquare calculateSquare = (number) -> number * number;
         System.out.println(calculateSquare.getSquare(5));
+        System.out.println("Bye Bye");
     }
 }
